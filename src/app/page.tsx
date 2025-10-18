@@ -1,15 +1,13 @@
 import React from 'react'
-import Navbar from './components/navbar'
+import Hero from './components/Hero'
 const page = () => {
   return (
 
+         <main className='overflow-hidden'>
 
-    <div>
-      
-      <Navbar/>
-      <p>Hello</p>
-   
-    </div>
+           <Hero/>
+         </main>
+
   )
 }
 
